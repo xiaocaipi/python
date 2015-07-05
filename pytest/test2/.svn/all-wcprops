@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/menupythontest/!svn/ver/3/1/pytest/test2
+END
+re.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/menupythontest/!svn/ver/3/1/pytest/test2/re.py
+END
+test4.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/menupythontest/!svn/ver/3/1/pytest/test2/test4.py
+END
+test3.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/menupythontest/!svn/ver/3/1/pytest/test2/test3.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/menupythontest/!svn/ver/3/1/pytest/test2/__init__.py
+END
+test2.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/menupythontest/!svn/ver/3/1/pytest/test2/test2.py
+END

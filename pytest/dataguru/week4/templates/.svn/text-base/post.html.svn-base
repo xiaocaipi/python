@@ -1,0 +1,5 @@
+<form action="http://localhost:8080/asdfas" method="post">
+First Name: <input name="first_name" type="text" />
+Last Name: <input name="last_name" type="text" />
+<input name="action" type="submit" value="Submit" />
+</form>

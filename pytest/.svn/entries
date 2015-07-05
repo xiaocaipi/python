@@ -1,0 +1,69 @@
+10
+
+dir
+2
+https://svn.sinaapp.com/menupythontest/1/pytest
+https://svn.sinaapp.com/menupythontest
+
+
+
+2015-06-13T09:35:46.304181Z
+2
+xiaocaipi@qq.com
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+7f1398c3-5df5-4054-a0ec-807a9a348c53
+
+
+
+
+
+
+
+immediates
+
+.project
+file
+0
+
+
+add
+
+.pydevproject
+file
+0
+
+
+add
+
+.settings
+dir
+
+
+
+add
+
+dataguru
+dir
+
+static
+dir
+
+test
+dir
+
+test2
+dir
+

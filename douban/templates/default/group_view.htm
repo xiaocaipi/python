@@ -1,0 +1,23 @@
+$def with (tplData)
+$:tplData['render'].header(tplData)
+	<div id="wrap">
+        <div class="jumbotron">
+        $if tplData['group_info']:
+            <h1>当前小组：$:tplData['group_info']['name']</h1>
+            <p>$:tplData['group_info']['description']</p>
+        $if session.login:
+        	$if tplData['user_info'] ==0:
+        		<div><a href="/group/view?id=$:tplData['group_info']['id']&focus=1">关注小组</a></div>
+        	$else:
+        		<div>我是这个小组的成员</div>
+            <div><a href="/forum/new?gid=$:tplData['group_info']['id']">发帖</a></div>
+        </div>
+        <div>
+            <ul>
+                $for i in tplData['forum_list']:
+                    <li>$:i['id'] => $:i['title'] <a href="/forum/view?id=$:i['id']">查看帖子</a></li>
+            </ul>
+        </div>
+	</div>  <!-- wrap end -->
+
+$:tplData['render'].footer(tplData)

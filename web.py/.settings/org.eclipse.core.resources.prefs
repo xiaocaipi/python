@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//config/settings.py=utf-8
+encoding//config/url.py=utf-8
+encoding//controller/action.py=utf-8
+encoding//models/user.py=utf-8
+encoding//utils/file_upload.py=utf-8
+encoding//utils/sendmail.py=utf-8
+encoding//utils/session_config.py=utf-8
+encoding//views/index.py=utf-8
+encoding/<project>=UTF-8
+encoding/code.py=utf-8

@@ -1,0 +1,35 @@
+10
+
+dir
+0
+https://svn.sinaapp.com/menupythontest/1/pytest/.settings
+https://svn.sinaapp.com/menupythontest
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+7f1398c3-5df5-4054-a0ec-807a9a348c53
+
+org.eclipse.core.resources.prefs
+file
+
+
+
+add
+

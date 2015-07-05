@@ -1,0 +1,11 @@
+Nginx + fastcgi + webpy + [Spawn-fcgi 1.6.4, flup]
+
+1、首先Spawn-fcgi需要在类unix环境运行
+2、安装flup
+pip install flup
+3、下载安装nginx
+4、配置nginx
+5、修改webpy入口文件
+6、安装spawn-fcgi
+7、启动spawn-fcgi
+8、访问地址

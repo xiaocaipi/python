@@ -1,0 +1,20 @@
+$def with (para)
+$if para==1:
+	<form action="http://localhost:8080/detail" enctype="multipart/form-data" method="POST">
+$else:
+	<form action="http://1.menupythontest.sinaapp.com/detail" enctype="multipart/form-data" method="POST">
+username: <input name="username" type="text" />  </br>
+name: <input name="name" type="text" />  </br>
+birthday: <input name="birthday" type="text" /> </br>
+address: <input name="address" type="text" /> </br>
+hobby: <input name="hobby" type="text" /> </br>
+pic: <input type="file" name="filename" /></br>
+personal_introduce: <input name="personal_introduce" type="text" /> </br>
+
+    </br>
+	
+
+
+
+<input name="action" type="submit" value="Submit" />
+</form>

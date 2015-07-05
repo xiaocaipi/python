@@ -1,0 +1,4 @@
+
+kaka1		11	sh
+kaka2		18	sh
+kaka4		12	sh

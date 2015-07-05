@@ -1,0 +1,25 @@
+ 'SERVER_SOFTWARE': 'CherryPy/3.2.0 Server'
+ 'SCRIPT_NAME': ''
+ 'ACTUAL_SERVER_PROTOCOL': 'HTTP/1.1'
+ 'REQUEST_METHOD': 'GET'
+ 'PATH_INFO': '/favicon.ico'
+ 'SERVER_PROTOCOL': 'HTTP/1.1'
+ 'QUERY_STRING': ''
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36'
+ 'HTTP_CONNECTION': 'keep-alive'
+ 'REMOTE_PORT': '52541'
+ 'SERVER_NAME': 'localhost'
+ 'REMOTE_ADDR': '127.0.0.1'
+ 'wsgi.url_scheme': 'http'
+ 'SERVER_PORT': '8080'
+ 'wsgi.input': <web.wsgiserver.KnownLengthRFile object at 0x01E71C70>
+ 'HTTP_HOST': 'localhost:8080'
+ 'wsgi.multithread': True
+ 'REQUEST_URI': '/favicon.ico'
+ 'HTTP_ACCEPT': '*/*'
+ 'wsgi.version': (1, 0)
+ 'wsgi.run_once': False
+ 'wsgi.errors': <open file '<stderr>', mode 'w' at 0x0120D0D0>
+ 'wsgi.multiprocess': False
+ 'HTTP_ACCEPT_LANGUAGE': 'zh-CN,zh;q=0.8,en;q=0.6'
+ 'HTTP_ACCEPT_ENCODING': 'gzip, deflate, sdch'

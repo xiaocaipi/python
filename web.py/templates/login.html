@@ -1,0 +1,18 @@
+$def with (para)
+$if para[1]==1:
+	<form action="http://localhost:8080/$:para[0]" method="post">
+$else:
+	<form action="http://1.menupythontest.sinaapp.com/$:para[0]" method="post">
+username: <input name="username" type="text" />  </br>
+password: <input name="password" type="password" /> </br>
+
+$if para[0]=='register':
+    email: <input name="email" type="text" /> </br>
+$else:
+    </br>
+	
+
+
+
+<input name="action" type="submit" value="Submit" />
+</form>

@@ -1,0 +1,15 @@
+$def with (para)
+<form action="http://localhost:8080/$:para" method="post">
+username: <input name="username" type="text" />  </br>
+password: <input name="password" type="password" /> </br>
+
+$if para=='register':
+    email: <input name="email" type="text" /> </br>
+$else:
+    </br>
+	
+
+
+
+<input name="action" type="submit" value="Submit" />
+</form>

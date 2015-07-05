@@ -1,0 +1,5 @@
+﻿cookie --> client浏览器端的信息文件，需要在客户端显示
+session  -》 server端，内存、硬盘，需要在服务器验证和查找的信息，
+
+
+session -》 session id -》 客户端 -》 cookie  

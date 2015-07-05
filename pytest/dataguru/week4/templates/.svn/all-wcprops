@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/menupythontest/!svn/ver/3/1/pytest/dataguru/week4/templates
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/menupythontest/!svn/ver/3/1/pytest/dataguru/week4/templates/__init__.py
+END
+base.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/menupythontest/!svn/ver/3/1/pytest/dataguru/week4/templates/base.html
+END
+post.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/menupythontest/!svn/ver/3/1/pytest/dataguru/week4/templates/post.html
+END
+sub.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/menupythontest/!svn/ver/3/1/pytest/dataguru/week4/templates/sub.html
+END
+testWithoutpar.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/menupythontest/!svn/ver/3/1/pytest/dataguru/week4/templates/testWithoutpar.html
+END

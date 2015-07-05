@@ -1,0 +1,40 @@
+$def with (tplData)
+$:tplData['render'].header(tplData)
+	<div id="wrap">
+        <div class="jumbotron">
+        $if tplData['f_info']:
+            <h1>当前帖子：$:tplData['f_info']['title']</h1>
+            <p>来自：$:tplData['f_info']['owner']  $:tplData['f_info']['create_date'] </p>
+            <p>$:tplData['f_info']['content']</p>
+        
+	</div>  <!-- wrap end -->
+	
+	<div>
+            <ul>
+                $for i in tplData['reply']:
+                    <li>$:i['content']  </li>
+            </ul>
+        </div>
+
+	<h2>你的回应</h2>
+
+	<div class="txd comment-form">
+		<form name="comment_form" method="post" action="/forum/view"
+			onsubmit="this.onsubmit=function(){return false}">
+			<input type="hidden" name="fid" value="$:tplData['fid']">
+			<textarea id="last" name="content" rows="8" cols="54"></textarea>
+			<br>
+			<script>
+                if (window.location.hash.indexOf('#last') + 1) {
+                    document.getElementById('last').focus();
+                }
+            </script>
+			 <span
+				class="bn-flat-hot rr"> <input name=""
+				type="submit" value="加上去">
+			</span>
+
+		</form>
+	</div>
+
+	$:tplData['render'].footer(tplData)
